@@ -1,11 +1,13 @@
+# defining variables
 boomer_years = list(range(1946, 1965))
 genx_years = list(range(1965, 1981))
 millennial_years = list(range(1981, 1997))
 genz_years = (list(range(1997, 2010)))
 genalpha_years = (list(range(2011, 2026)))
 allyears = (list(range(1946, 2026)))
-
+# asking for input
 year = (int(input("What year were you born? ")))
+# comparing values
 if year in boomer_years:
     print("Okay, boomer.")
 elif year in genx_years:
@@ -18,6 +20,6 @@ elif year in genalpha_years:
     print("[insert something negative about gen alpha here]")
 else:
     print("uh idk lol")
-
-    # this is a random comment
+# reconsidering your life decisions
+input("Press Enter to close.")
     
